@@ -1,0 +1,26 @@
+form:
+  properties:
+    title:
+      $type: textField
+      required: true
+      label: Title
+    description:
+      $type: textField
+      required: true
+      label: Description
+    image:
+      $type: damLinkField
+      required: true
+      label: Image
+    list:
+      i18n: true
+      $type: jcrMultiField
+      buttonSelectAddLabel: Add List
+      label: List
+      field:
+        $type: compositeField
+        label:
+        properties:
+          listItem:
+            $type: textField
+            label: List Item

@@ -1,0 +1,4 @@
+templateScript: /prabhu-light-module/templates/components/welcomePoster.ftl
+dialog: prabhu-light-module:components/welcomePoster
+renderType: freemarker
+title: Welcome Componen

@@ -1,0 +1,12 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: website
+bypassWorkspaceAcls: true
+depth: 50
+limit: 100
+nodeTypes:
+  - mgnl:component
+references:
+  - name: media
+    propertyName: url
+    referenceResolver:
+      $type: assetReferenceResolve

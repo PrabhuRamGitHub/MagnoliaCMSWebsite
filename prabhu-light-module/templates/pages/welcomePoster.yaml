@@ -1,0 +1,13 @@
+templateScript: prabhu-light-module/templates/pages/welcomePoster.ftl
+renderType: freemarker
+visible: true
+title: Welcome Poster
+dialog: prabhu-light-module:pages/pageProperties
+areas:
+  main:
+    type: single
+    availableComponents:
+      welcomePoster:
+        id: prabhu-light-module:components/welcomePoster
+  footer:
+    editable: true
